@@ -1,11 +1,8 @@
 import { useState } from "react";
-import { useUnsavedChangeWarning } from "../hooks/useUnsavedChangeWarning";
 
 const CommentForm = () => {
   const [name, setName] = useState<string>("");
   const [comment, setComment] = useState<string>("");
-
-  useUnsavedChangeWarning(!name || !comment);
 
   return (
     <div className="flex justify-center items-center h-[100vh]">
