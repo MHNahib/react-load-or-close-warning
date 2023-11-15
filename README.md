@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Unsaved Changes Warning in React
 
-Currently, two official plugins are available:
+Learn how to seamlessly implement an unsaved changes warning in your React application without relying on third-party libraries. This tutorial introduces a custom hook approach, providing a lightweight and tailored solution for your specific needs. Explore the step-by-step guide, complete with code snippets and a clear demonstration of the final design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Blog Link:**
+[Unsaved Changes Warning in React](https://mhnahib.hashnode.dev/unsaved-changes-warning-in-react)
 
-## Expanding the ESLint configuration
+**Blog Image:**
+![Blog Image](https://cdn.hashnode.com/res/hashnode/image/upload/v1700067316949/687add76-55d0-4e30-b426-ce6efcacd7ad.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Visit the provided link to delve into the tutorial and enhance your React application with an effective unsaved changes warning.
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
