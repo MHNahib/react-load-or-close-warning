@@ -24,6 +24,7 @@ const CommentForm = () => {
             className="shadow-sm bg-gray-50 border border-gray-30 p-2.5"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            autoComplete="off"
           />
         </div>
         <div className="flex flex-col">
